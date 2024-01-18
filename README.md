@@ -1,8 +1,8 @@
 # Algorithms
 
-##A fast sorting algorithm with a random reference element for complexity O(n log n)
+## A fast sorting algorithm with a random reference element for complexity O(n log n)
 
-`const values = [124, 300, 5, 1, 11];
+```const values = [124, 300, 5, 1, 11];
 
   const defolt = (values) => {
     if (values.length < 2) return values;
@@ -18,4 +18,4 @@
     });
     console.log(more);
     return defolt(less).concat(pivot, defolt(more));
-  };`
+  };```
