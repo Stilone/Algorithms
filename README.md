@@ -1,6 +1,6 @@
 # Algorithms
 
-## A fast sorting algorithm with a random reference element for complexity O(n log n)
+### A fast sorting algorithm with a random reference element for complexity O(n log n)
 
 ```const values = [124, 300, 5, 1, 11];
 
