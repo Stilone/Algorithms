@@ -30,8 +30,6 @@ const binarySearch = (arr, target) => {
 Sorts the array by dividing it in half using a checkpoint, in order to avoid the worst number of operations performed, it is recommended to set a random checkpoint, otherwise the complexity of the algorithm may change from O(n log n) to O(n2), although there is a small chance, but it is better to avoid this
 
 ```
-  const values = [124, 300, 5, 1, 11];
-
   const sorting = (values) => {
     if (values.length < 2) return values;
     let count = Math.floor(Math.random(3) * values.length);
