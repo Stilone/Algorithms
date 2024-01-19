@@ -48,3 +48,4 @@ Sorts the array by dividing it in half using a checkpoint, in order to avoid the
     return sorting(less).concat(pivot, sorting(more));
   };
 ```
+#
