@@ -4,7 +4,7 @@
 
 searches for the desired value in the sorted array by dividing the array in half
 
-
+```
 const binarySearch = (arr, target) => {
     let left = 0;
     let right = arr.length - 1;
@@ -23,7 +23,7 @@ const binarySearch = (arr, target) => {
 
     return -1; // Элемент не найден
 }
-
+```
 #
 ### A fast sorting algorithm with a random reference element for complexity O(n log n):
 
